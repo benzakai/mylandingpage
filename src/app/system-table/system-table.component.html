@@ -1,0 +1,25 @@
+<div class="card" dir="rtl">
+  <div class="card-header">
+    מנטרת גולן סולאר
+  </div>
+  <div class="card-body" >
+    <table class="system-table">
+      <thead>
+        <tr >
+          <th>שם המערכת</th>
+          <th>KWP</th>
+          <th>פורטל</th>
+          <th>היום</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let system of systems" >
+          <td>{{ system.name }}</td>
+          <td>{{ system.kwp }}</td>
+          <td>{{ system.portal }}</td>
+          <td>{{ system.today }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

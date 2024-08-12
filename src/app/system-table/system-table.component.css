@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+}
+
+.system-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.system-table th, .system-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.system-table th {
+  background-color: #f4f4f4;
+}
